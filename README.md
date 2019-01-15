@@ -1,6 +1,6 @@
 # pipeline-nats-pipeline-dockerized
 
-**Status** [DEV/ALPHA - Exploration only]
+**Status** [DEV/BETA]
 
 Sample dockerized pipeline
 
@@ -13,13 +13,9 @@ pip install asyncio-nats-client
 
 # Freezing requirements
 pip freeze > requirements.txt
-
-# Building docker file
-docker build -t python-nats-pipeline
-
-# Running docker pipeline with NATS docker image
-???
 ```
+
+See specific version for execution instruction and more details.
 
 ## Refs
 * https://stackabuse.com/dockerizing-python-applications/
